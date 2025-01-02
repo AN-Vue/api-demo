@@ -2,16 +2,22 @@
   <div>
     <h3>API Demo</h3>
     <Users/>
+    <FacebookPostsUsingAxios/>
+    <FacebookPostsUsingFetch/>
   </div>
 </template>
 
 <script>
   import Users from './Users.vue'
+  import FacebookPostsUsingAxios from './Facebook/FacebookPostsUsingAxios.vue'
+  import FacebookPostsUsingFetch from './Facebook/FacebookPostsUsingFetch.vue';
 
   export default {
     name: 'AppMain',
     components: {
-      Users
+      Users,
+      FacebookPostsUsingAxios,
+      FacebookPostsUsingFetch
     }
   }
 </script>
